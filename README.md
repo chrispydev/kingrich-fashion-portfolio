@@ -3,6 +3,9 @@
 A modern, responsive fashion portfolio website built with **Next.js**, **Tailwind CSS**, and **Cloudinary**.
 This platform allows designers to showcase their work beautifully and enables customers to easily view designs and place orders via WhatsApp.
 
+## 📸 Preview
+
+![Homepage Screenshot](./public/Screenshot.png)
 ---
 
 ## 🚀 Features
@@ -149,4 +152,5 @@ Developed by **Christian Yaw Owusu**
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project was built as a paid client project.  
+All rights reserved. Unauthorized copying or redistribution is prohibited.
