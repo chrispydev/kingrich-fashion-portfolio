@@ -11,8 +11,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-2">
 
         {/* BRAND */}
-        <Link href="/" className="font-serif text-2xl tracking-wide font-bold">
-          BrandName
+        <Link href="/" className="font-serif text-2xl tracking-wide font-black uppercase">
+          kingrich
         </Link>
 
         {/* DESKTOP MENU */}
