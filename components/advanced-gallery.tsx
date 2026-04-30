@@ -182,7 +182,7 @@ export default function AdvancedGallery() {
 
               {/* WHATSAPP */}
               <a
-                href={`https://wa.me/233553782097?text=${encodeURIComponent(
+                href={`https://wa.me/233540791479?text=${encodeURIComponent(
                   `Hello, I like this design: ${selected.secure_url}`
                 )}`}
                 target="_blank"
