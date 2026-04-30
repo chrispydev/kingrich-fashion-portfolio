@@ -16,7 +16,6 @@ export default function Home() {
       try {
         const res = await fetch("/api/images");
         const data = await res.json();
-        console.log(data)
 
         setImages(data); // ✅ IMPORTANT FIX
       } catch (err) {
@@ -30,7 +29,20 @@ export default function Home() {
   }, []);
 
   if (loading) {
-    return <div className="text-center py-10">Loading images...</div>;
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center">
+        {/* SPINNER */}
+        <div className="relative">
+          <div className="w-10 h-10 border-2 border-green-500 rounded-full"></div>
+          <div className="w-10 h-10 border-2 border-black border-t-transparent rounded-full animate-spin absolute top-0 left-0"></div>
+        </div>
+
+        {/* TEXT */}
+        <p className="mt-4 text-sm tracking-widest text-gray-500 uppercase">
+          Loading collection
+        </p>
+      </div>
+    )
   }
 
   // 🔥 SPLIT DATA HERE
